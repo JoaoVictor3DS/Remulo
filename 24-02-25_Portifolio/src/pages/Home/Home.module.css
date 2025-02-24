@@ -4,12 +4,13 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    /* space-around */
 }
 
 .home img {
-    margin: 50px;
-    height: 500px;
+    height: 300px;
+    margin: 30px;
 }
 
 .home p {
@@ -31,7 +32,6 @@
     border: 0;
     border-radius: 8px;
     cursor: pointer;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,4 +45,25 @@
 
 .btn_red:hover {
     background-color: var(--primary);
+}
+
+.img_home {}
+
+/* aula 11 extra 01 responsividade */
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .home p {
+        font-size: 2rem;
+    }
+
+    .home img {
+        max-width: 100%;
+        height: auto;
+        padding-inline: 2.5rem;
+    }
 }

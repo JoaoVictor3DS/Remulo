@@ -1,12 +1,30 @@
 .footer {
     width: 100%;
-    height: 50px;
+    min-height: 2vh;
     background-color: var(--primary);
-    color: var(--white);
-    font-weight: bold;
-    font-size: 10px;
+    color: var(--secondary);
+    font-size: 1em;
+    border: 1px solid var(--soft-white);
 
     display: flex;
     align-items: center;
     justify-content: center;
+    /* aula 11 extra 01 */
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        font-size: 1rem;
+        /* 16px */
+    }
+}
+
+/* mobile m */
+@media (max-width: 480px) {
+    .footer {
+        font-size: 0.75rem;
+        /* 12px */
+    }
 }

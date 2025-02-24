@@ -24,3 +24,16 @@
     font-size: 2rem;
     color: var(--secondary);
 }
+
+@media (max-width: 768px) {
+    .contats {
+        text-align: center;
+        padding-inline: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icons {
+        gap: 0.5rem;
+    }
+}

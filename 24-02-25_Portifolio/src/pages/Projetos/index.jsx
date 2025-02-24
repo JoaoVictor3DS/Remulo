@@ -5,8 +5,6 @@ function Sobre() {
         <>
             <h2>Projetos...</h2>
             <Card />
-            <Card />
-            <Card />
         </>
     )
 }

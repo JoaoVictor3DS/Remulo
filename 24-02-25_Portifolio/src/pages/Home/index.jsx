@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom'
 import styles from './Home.module.css'
+import myPhoto from './avatar.jpg'
 
 function Home() {
     return (
         <>
             <div>
                 <section className={styles.home}>
-                    <div className={styles.apresentacao}>
+                    <div>
                         <p>
                             Olá, sou <br />
                             <span>João Victor Pinheiro Reis</span> <br />
@@ -17,7 +18,7 @@ function Home() {
                         </Link>
                     </div>
                     <figure>
-                        <img className={styles.img_home} src="" alt="Foto Minha" />
+                        <img className={styles.img_home} src={myPhoto} />
                     </figure>
                 </section>
             </div>
