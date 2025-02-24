@@ -47,8 +47,6 @@
     background-color: var(--primary);
 }
 
-.img_home {}
-
 /* aula 11 extra 01 responsividade */
 @media (max-width: 768px) {
     .home {
