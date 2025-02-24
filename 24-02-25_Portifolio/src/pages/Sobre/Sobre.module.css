@@ -1,0 +1,54 @@
+.sobre {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 85vh;
+    width: 100%;
+}
+
+.bio {
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.bio span {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.bio strong {
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.avatar {
+    max-height: 300px;
+}
+
+.texts h2,
+p {
+    margin-bottom: 1rem;
+}
+
+.techs {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.icons {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.icon {
+    align-items: center;
+    display: flex;
+    justify-items: center;
+}

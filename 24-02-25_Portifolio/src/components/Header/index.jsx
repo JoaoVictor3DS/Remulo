@@ -4,9 +4,9 @@ import styles from './Header.module.css'
 function Header() {
     return (
         <header className={styles.header}>
-            <Link to="/">
-                <span>joaovictorpinheiro1510@gmail.com</span>
-            </Link>
+            <a href='mailto:joaovictorpinheiro1510@gmail.com' target='_blank' rel='noopener noreferrer'>
+                joaovictorpinheiro1510@gmail.com
+            </a>
             <nav>
                 <Link to="/">Home</Link>
                 <Link to="/sobre">Sobre</Link>

@@ -1,0 +1,26 @@
+.contats {
+    width: 30%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.title2 {
+    font-size: 40px;
+}
+
+.icons {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 1rem;
+}
+
+.icon {
+    font-size: 2rem;
+    color: var(--secondary);
+}
